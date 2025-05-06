@@ -13,11 +13,15 @@
 
 # misc
 .DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+my_api_key=f7a2336d31be44b8afc9e9a407352c20
